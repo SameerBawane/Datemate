@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DateMate SignUp</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://kit.fontawesome.com/47cd517d8b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="signup-container">
+        <div class="formbox">
+            <h1>Sign Up</h1>
+            <form>
+                <div class="input-field">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Name" required>
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-key"></i>
+                    <input type="text" placeholder="Password" required>
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <input type="text" placeholder="DOB" min="1947-01-26">
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-map-pin"></i>
+                    <input type="text" id="email" placeholder="email" pattern=".+@globex\.com" size="30" required>
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="text" placeholder="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-person-half-dress"></i>
+                    <input type="text" placeholder="Gender" required>
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-map-pin"></i>
+                    <input type="text" placeholder="Address" required>
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-arrows-up-down"></i>
+                    <input type="text" placeholder="Height in feet" required>
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-weight-scale"></i>
+                    <input type="text" placeholder="Weight in Kgs" required>
+                </div>
+                <div class="movetologin">
+                    <p>Already a customer ? <a href="./login.html" target="_blank">click here to login</a></p>
+                </div>
+                <a href="./booking.html" target="_blank"><button type="button" id="login">Sign Up</button></a>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

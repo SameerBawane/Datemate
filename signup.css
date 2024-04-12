@@ -1,0 +1,72 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.signup-container {
+    height: 140vh;
+    width: 100%;
+    background-image: radial-gradient(circle, rgba(223,27,94,1) 0%, rgba(255,125,169,1) 0%, rgba(253,253,253,1) 100%);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.formbox{
+    width: 25%;
+    max-width: 450px;    
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    background: #fff;
+    text-align: center;
+    padding: 30px;
+    border-radius: 3px;
+
+}
+.formbox h1{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    padding: 10px;
+    color: #D14D72;
+}
+
+.input-field{
+    background:#FEF2F4;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    padding-right: 5px;
+}
+i{
+    margin-left: 10px;
+    /* margin-right: 10px; */
+}
+input{
+    width: 100%;
+    background: transparent;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    padding: 10px 5px;
+}
+button{
+    margin-top: 10px;
+    padding: 7px 10px;
+    font-weight: 500;
+    background-color: #FFABAB;
+    border: 0;
+    border-radius: 3px;
+}
+.movetologin{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
